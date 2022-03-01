@@ -1,0 +1,55 @@
+body{
+    background-color:rgb(26, 9, 9);
+    color: lightblue;
+}
+h1{
+    color: white;
+    text-align: center;
+    margin-top: 100px;
+}
+#programmer{
+    color: rgb(185, 247, 188);
+    text-align: center;
+}
+#dots{
+    color: rgb(253, 253, 253);
+    padding-top: 100px;
+    text-align: center;
+    height: 100%;
+    width: 100%;
+}
+h2{
+    padding-left: 10%;
+    text-align: justify;
+    color: black;
+}
+
+img{
+   border-radius: 50%;
+   margin-left: 26%;
+   padding-top: 500px;
+   padding-bottom: 500px;
+}
+
+#footer{
+    background-color: rgb(179, 245, 159);
+}
+#contact{
+    display: flex;
+    flex-direction: row;
+    margin-left: 25px;
+}
+#contact a{
+    text-decoration: none;
+    color: white;
+    padding-left: 1%;
+    padding-right: 10%;
+}
+/*==================================================
+=====================================================
+=====================================================*/
+@media screen and (max-width:900px){
+    body{
+        background-color: steelblue;
+    }
+}
