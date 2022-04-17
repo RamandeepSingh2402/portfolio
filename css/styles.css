@@ -1,5 +1,5 @@
 body{
-    background-color:rgb(26, 9, 9);
+    background-color:rgb(29, 0, 0);
     color: lightblue;
 }
 h1{
@@ -9,6 +9,10 @@ h1{
 }
 #programmer{
     color: rgb(185, 247, 188);
+    text-align: center;
+}
+#coffee{
+    color: rgb(255, 255, 255);
     text-align: center;
 }
 #dots{
@@ -22,18 +26,34 @@ h1{
     margin-left: 40%;
 }
 #location{
-    margin-left: 50%;
+    margin-left: 47%;
     padding-bottom: 100px;
 }
-h2{
-    padding-left: 10%;
-    text-align: justify;
-    color: black;
+#work{
+    margin-left: 50%;
+    color: aquamarine;
 }
-
+#work_table{
+    margin-left: 30%;
+    color: aqua;
+}
+#skills{
+    margin-left: 50%;
+    color: aquamarine;
+}
+#skills_table{
+    margin-left: 30%;
+    color: aqua;
+}
+th, td{
+    padding-top: 10px;
+    padding-left: 30px;
+    padding-bottom: 20px;
+    padding-right: 30px;
+}
 img{
    border-radius: 50%;
-   margin-left: 26%;
+   margin-left: 32%;
    padding-top: 100px;
    padding-bottom: 100px;
 }
@@ -44,16 +64,11 @@ img{
     background-color: rgb(36, 92, 213);
     font-size: large;
 }
-h5{
-    font-size: larger;
-    color: teal;
-}
 #contact{
     display: flex;
     flex-direction: row;
     margin-left: 25px;
 }
-
 ul{
     color:blanchedalmond
 }
