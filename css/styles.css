@@ -1,12 +1,33 @@
+.top-container{
+    background-color: #007d6661;
+}
+#first-cloud{
+    display: inline;
+}
+#mountain, #second-cloud{
+    display: inline;
+}
+/* .middle-container{
+    background-color: red;
+    width: 200px;
+    height:200px;
+}
+.bottom-container{
+    width:200px;
+    height:200px;
+    background-color: blue;
+} */
 body{
     background-color: #366;
     /* background-color: #EAF6F6; */
     color: lightblue;
+    margin: 0;
 }
 h1{
     color: white;
     text-align: center;
-    margin-top: 100px;
+    margin-top: 0px;
+    display: inline-block;
 }
 #programmer{
     color: rgb(185, 247, 188);
