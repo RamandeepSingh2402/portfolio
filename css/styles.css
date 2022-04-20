@@ -1,7 +1,24 @@
 .top-container{
     background-color: #007d6661;
+    position: relative;
+    padding-top: 100px;
 }
-
+#ramandeep{
+    border-radius: 50%;
+    height: 15%;
+    width: 15%;
+    padding-left: 15%;
+    padding-right: 15%;
+}
+#first-cloud{
+    display: absolute;
+    margin-left: 75%;
+}
+#second-cloud{
+    display: absolute;
+    margin-right: 75%;
+    padding-top: 5px;
+}
 /* #first-cloud, #mountain{
     display: inline-block;
     margin-left: 0;
