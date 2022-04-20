@@ -1,11 +1,27 @@
 .top-container{
     background-color: #007d6661;
 }
-#first-cloud{
-    display: inline;
+
+#first-cloud, #mountain{
+    display: inline-block;
+    margin-left: 0;
+    margin-top: 0%;
 }
-#mountain, #second-cloud{
-    display: inline;
+#mountain{
+    margin-left: 400px;
+    margin-right: auto;
+}
+#first-cloud{
+    margin-top: 0%;
+    margin-left: 100;
+}
+#second-cloud{
+    margin-left: 320px;
+    display: inline-block;
+    margin-top: 0px;
+}
+#ramandeep{
+    display: inline-block;
 }
 /* .middle-container{
     background-color: red;
@@ -21,7 +37,7 @@ body{
     background-color: #366;
     /* background-color: #EAF6F6; */
     color: lightblue;
-    margin: 0;
+    margin: 0 auto 0 auto;
 }
 h1{
     color: white;
