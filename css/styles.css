@@ -54,12 +54,16 @@
     height:200px;
     background-color: blue;
 } */
+#programmer, #coffee{
+    font-family: 'Montserrat', sans-serif;
+}
 body{
     background-color: #366;
     /* background-color: #EAF6F6; */
     color: lightblue;
     /* margin: 0 auto 0 auto; */
     text-align: center;
+    font-family: 'Merriweather', serif;
 }
 /* h1{
     color: white;
@@ -67,6 +71,10 @@ body{
     margin-top: 0px;
     display: inline-block;
 } */
+h1{
+    color: black;
+    font-family: 'Sacramento', serif;
+}
 #programmer{
     color: rgb(185, 247, 188);
     /* text-align: center; */
@@ -94,16 +102,18 @@ hr{
     color: aquamarine;
 }
 #work_table{
-    margin-left: 30%;
+    /* margin-left: 30%; */
     color: aqua;
+    margin: auto;
 }
 #skills{
     /* margin-left: 50%; */
     color: aquamarine;
 }
 #skills_table{
-    margin-left: 30%;
+    /* margin-left: 30%; */
     color: aqua;
+    margin: auto;
 }
 th, td{
     padding-top: 10px;
