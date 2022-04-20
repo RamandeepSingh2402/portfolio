@@ -2,27 +2,31 @@
     background-color: #007d6661;
 }
 
-#first-cloud, #mountain{
+/* #first-cloud, #mountain{
     display: inline-block;
     margin-left: 0;
     margin-top: 0%;
-}
-#mountain{
+} */
+/* #first-cloud{
+    display: absolute;
+} */
+/* #mountain{
     margin-left: 400px;
     margin-right: auto;
 }
 #first-cloud{
     margin-top: 0%;
     margin-left: 100;
-}
-#second-cloud{
+} */
+/* #second-cloud{
     margin-left: 320px;
     display: inline-block;
     margin-top: 0px;
-}
-#ramandeep{
-    display: inline-block;
-}
+} */
+/* #second-cloud{
+    display: absolute;
+} */
+/* Q12`W31425678     */
 /* .middle-container{
     background-color: red;
     width: 200px;
@@ -37,21 +41,22 @@ body{
     background-color: #366;
     /* background-color: #EAF6F6; */
     color: lightblue;
-    margin: 0 auto 0 auto;
+    /* margin: 0 auto 0 auto; */
+    text-align: center;
 }
-h1{
+/* h1{
     color: white;
     text-align: center;
     margin-top: 0px;
     display: inline-block;
-}
+} */
 #programmer{
     color: rgb(185, 247, 188);
-    text-align: center;
+    /* text-align: center; */
 }
 #coffee{
     color: rgb(255, 255, 255);
-    text-align: center;
+    /* text-align: center; */
 }
 hr{
     border-style: none;
@@ -60,15 +65,15 @@ hr{
     border-width: 5px;
     width: 5%;
 }
-#student{
+/* #student{
     margin-left: 40%;
-}
-#location{
+} */
+/* #location{
     margin-left: 47%;
     padding-bottom: 100px;
-}
+} */
 #work{
-    margin-left: 50%;
+    /* margin-left: 50%; */
     color: aquamarine;
 }
 #work_table{
@@ -76,7 +81,7 @@ hr{
     color: aqua;
 }
 #skills{
-    margin-left: 50%;
+    /* margin-left: 50%; */
     color: aquamarine;
 }
 #skills_table{
@@ -89,12 +94,12 @@ th, td{
     padding-bottom: 20px;
     padding-right: 30px;
 }
-img{
+/* img{
    border-radius: 50%;
    margin-left: 32%;
    padding-top: 100px;
    padding-bottom: 100px;
-}
+} */
 #McD{
     padding-bottom: 100px;
 }
