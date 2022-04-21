@@ -19,41 +19,6 @@
     margin-right: 75%;
     padding-top: 5px;
 }
-/* #first-cloud, #mountain{
-    display: inline-block;
-    margin-left: 0;
-    margin-top: 0%;
-} */
-/* #first-cloud{
-    display: absolute;
-} */
-/* #mountain{
-    margin-left: 400px;
-    margin-right: auto;
-}
-#first-cloud{
-    margin-top: 0%;
-    margin-left: 100;
-} */
-/* #second-cloud{
-    margin-left: 320px;
-    display: inline-block;
-    margin-top: 0px;
-} */
-/* #second-cloud{
-    display: absolute;
-} */
-/* Q12`W31425678     */
-/* .middle-container{
-    background-color: red;
-    width: 200px;
-    height:200px;
-}
-.bottom-container{
-    width:200px;
-    height:200px;
-    background-color: blue;
-} */
 .software-dev, .web-dev{
     width: 20%;
     border-radius: 70%;
@@ -72,12 +37,6 @@ body{
     text-align: center;
     font-family: 'Merriweather', serif;
 }
-/* h1{
-    color: white;
-    text-align: center;
-    margin-top: 0px;
-    display: inline-block;
-} */
 #soft-dev-skill, #web-dev-skill{
     width: 50%;
     margin: 100px auto 10px 30px;
