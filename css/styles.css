@@ -1,7 +1,8 @@
 .top-container{
-    background-color: #007d6661;
+    background-color: #008181;
     position: relative;
-    padding-top: 100px;
+    margin: -10px -100px -10px -10px;
+    padding-bottom: 200px;
 }
 #ramandeep{
     border-radius: 50%;
@@ -20,12 +21,14 @@
     padding-top: 5px;
 }
 #software-development{
-    color: rgb(0,255,255);
+    /* color: rgb(0,255,255); */
+    color: #0ac0c6;
     padding-right: 35%;
-    padding-top: 100px;
+    padding-top: 10px;
 }
 #web-development{
-    color: rgb(0, 225, 255);
+    /* color: rgb(0, 225, 255); */
+    color: #0ac0c6;
     padding-left: 35%;
 }
 .software-dev, .web-dev{
@@ -44,12 +47,16 @@
 #programmer, #coffee{
     font-family: 'Montserrat', sans-serif;
 }
+#student, #location, #coffee{
+    color: #00d2ac;
+}
 body{
-    background-color: #366;
-    /* background-color: #EAF6F6; */
-    color: lightblue;
+    /* background-color: white; */
+    background-color: #009c59;
+    color: #ccfff6;
     /* margin: 0 auto 0 auto; */
     text-align: center;
+    font-size: large;
     font-family: 'Merriweather', serif;
 }
 #soft-dev-skill{
@@ -59,7 +66,7 @@ body{
 }
 #web-dev-skill{
     width: 50%;
-    margin: 70px 100px 0 auto;
+    margin: 70px 100px 100px auto;
     /* text-align: left; */
 }
 h1{
@@ -83,29 +90,27 @@ h1{
 hr{
     border-style: none;
     border-top-style:dotted;
-    border-color: grey;
+    border-color: black;
     border-width: 5px;
     width: 5%;
 }
 #work{
     /* margin-left: 50%; */
     /* color: aquamarine; */
-    color: #11999E;
+    color: #66BFBF;
 }
 #work_table{
-    /* margin-left: 30%; */
-    color: aqua;
+    color: #ccfff6;
     margin: auto;
 }
 #skills{
     /* margin-left: 50%; */
     /* color: aquamarine; */
-    color: #11999E;
+    color: #66BFBF;
     margin-top: 100px;
 }
 #skills_table{
-    /* margin-left: 30%; */
-    color: aqua;
+    color: #ccfff6;
     margin: auto;
 }
 th, td{
@@ -114,23 +119,31 @@ th, td{
     padding-bottom: 20px;
     padding-right: 30px;
 }
-/* img{
-   border-radius: 50%;
-   margin-left: 32%;
-   padding-top: 100px;
-   padding-bottom: 100px;
-} */
 #McD{
     padding-bottom: 100px;
 }
 #footer{
-    background-color: #014a4a;
+    /* background-color: #014a4a; */
+    background-color: #66BFBF;
+    margin: 0 -20px -20px -20px;
     font-size: large;
 }
 #contact{
     display: flex;
     flex-direction: row;
     margin-left: 25px;
+    color: #EAF6F6;
+}
+.contact-button{
+    text-decoration: none;
+    height: 50px;
+    width: 100px;
+    border-radius: 50%;
+    background-color: #11999E;
+}
+.contact-button a{
+    text-decoration: none;
+    color: black;
 }
 h6 a{
     text-decoration: none;
@@ -144,12 +157,21 @@ ul li{
     padding-top: 10px;
     color: aliceblue;
 }
+#get_in_touch{
+    font-size: large;
+}
+#touch{
+    background-color: red;
+}
 #contact a{
     text-decoration: none;
     /* color: white; */
     padding-left: 1%;
     padding-right: 10%;
     color: #11999E;
+}
+#copyright{
+    color: #EAF6F6;
 }
 /*==================================================
 =====================================================
