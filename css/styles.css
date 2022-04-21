@@ -21,10 +21,16 @@
 }
 .software-dev, .web-dev{
     width: 20%;
-    border-radius: 70%;
+    border-radius: 50%;
 }
 .software-dev{
     float: left;
+    margin-left: 50px;
+}
+.web-dev{
+    float: left;
+    margin-top: 70px;
+    margin-left: -320px;
 }
 #programmer, #coffee{
     font-family: 'Montserrat', sans-serif;
@@ -37,13 +43,15 @@ body{
     text-align: center;
     font-family: 'Merriweather', serif;
 }
-#soft-dev-skill, #web-dev-skill{
-    width: 50%;
-    margin: 100px auto 10px 30px;
-    text-align: left;
-}
 #soft-dev-skill{
-    padding-left: 300px;
+    width: 50%;
+    margin: 100px 2px 0px 30px;
+    /* text-align: left; */
+}
+#web-dev-skill{
+    width: 50%;
+    margin: 150px 2px 0 45px;
+    /* text-align: left; */
 }
 h1{
     font-family: 'Sacramento', serif;
@@ -70,13 +78,6 @@ hr{
     border-width: 5px;
     width: 5%;
 }
-/* #student{
-    margin-left: 40%;
-} */
-/* #location{
-    margin-left: 47%;
-    padding-bottom: 100px;
-} */
 #work{
     /* margin-left: 50%; */
     /* color: aquamarine; */
@@ -91,6 +92,7 @@ hr{
     /* margin-left: 50%; */
     /* color: aquamarine; */
     color: #11999E;
+    margin-top: 100px;
 }
 #skills_table{
     /* margin-left: 30%; */
