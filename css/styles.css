@@ -19,18 +19,27 @@
     margin-right: 75%;
     padding-top: 5px;
 }
+#software-development{
+    color: rgb(0,255,255);
+    padding-right: 35%;
+    padding-top: 100px;
+}
+#web-development{
+    color: rgb(0, 225, 255);
+    padding-left: 35%;
+}
 .software-dev, .web-dev{
     width: 20%;
     border-radius: 50%;
 }
 .software-dev{
     float: left;
-    margin-left: 50px;
+    margin-left: 200px;
 }
 .web-dev{
-    float: left;
-    margin-top: 70px;
-    margin-left: -320px;
+    float: right;
+    margin-top: 0px;
+    margin-right: 200px; 
 }
 #programmer, #coffee{
     font-family: 'Montserrat', sans-serif;
@@ -45,12 +54,12 @@ body{
 }
 #soft-dev-skill{
     width: 50%;
-    margin: 100px 2px 0px 30px;
+    margin: 60px 2px 0px 150px;
     /* text-align: left; */
 }
 #web-dev-skill{
     width: 50%;
-    margin: 150px 2px 0 45px;
+    margin: 70px 100px 0 auto;
     /* text-align: left; */
 }
 h1{
