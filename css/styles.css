@@ -54,6 +54,13 @@
     height:200px;
     background-color: blue;
 } */
+.software-dev, .web-dev{
+    width: 20%;
+    border-radius: 70%;
+}
+.software-dev{
+    float: left;
+}
 #programmer, #coffee{
     font-family: 'Montserrat', sans-serif;
 }
@@ -71,12 +78,26 @@ body{
     margin-top: 0px;
     display: inline-block;
 } */
+#soft-dev-skill, #web-dev-skill{
+    width: 50%;
+    margin: 100px auto 10px 30px;
+    text-align: left;
+}
+#soft-dev-skill{
+    padding-left: 300px;
+}
 h1{
-    color: black;
     font-family: 'Sacramento', serif;
+    font-size: 5.625em;
+    margin: 50px auto 0 auto;
+    color: #66BFBF;
+    font-weight: normal;
+    line-height: 2;
 }
 #programmer{
-    color: rgb(185, 247, 188);
+    /* color: rgb(185, 247, 188); */
+    color: #66BFBF;
+    font-weight: normal;
     /* text-align: center; */
 }
 #coffee{
@@ -99,7 +120,8 @@ hr{
 } */
 #work{
     /* margin-left: 50%; */
-    color: aquamarine;
+    /* color: aquamarine; */
+    color: #11999E;
 }
 #work_table{
     /* margin-left: 30%; */
@@ -108,7 +130,8 @@ hr{
 }
 #skills{
     /* margin-left: 50%; */
-    color: aquamarine;
+    /* color: aquamarine; */
+    color: #11999E;
 }
 #skills_table{
     /* margin-left: 30%; */
@@ -153,9 +176,10 @@ ul li{
 }
 #contact a{
     text-decoration: none;
-    color: white;
+    /* color: white; */
     padding-left: 1%;
     padding-right: 10%;
+    color: #11999E;
 }
 /*==================================================
 =====================================================
