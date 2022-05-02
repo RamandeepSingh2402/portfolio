@@ -23,13 +23,13 @@
 #software-development{
     /* color: rgb(0,255,255); */
     color: #00f7ff;
-    padding-right: 35%;
+    padding-right: 55%;
     padding-top: 10px;
 }
 #web-development{
     /* color: rgb(0, 225, 255); */
     color: #00f7ff;
-    padding-left: 35%;
+    padding-left: 55%;
 }
 .software-dev, .web-dev{
     width: 20%;
