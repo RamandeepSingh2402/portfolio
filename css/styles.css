@@ -22,13 +22,13 @@
 }
 #software-development{
     /* color: rgb(0,255,255); */
-    color: #0ac0c6;
+    color: #00f7ff;
     padding-right: 35%;
     padding-top: 10px;
 }
 #web-development{
     /* color: rgb(0, 225, 255); */
-    color: #0ac0c6;
+    color: #00f7ff;
     padding-left: 35%;
 }
 .software-dev, .web-dev{
@@ -48,11 +48,10 @@
     font-family: 'Montserrat', sans-serif;
 }
 #student, #location, #coffee{
-    color: #00d2ac;
+    color: #ffce2d;
 }
 body{
-    /* background-color: white; */
-    background-color: #009c59;
+    background-color: #39002d;
     color: #ccfff6;
     /* margin: 0 auto 0 auto; */
     text-align: center;
@@ -97,7 +96,7 @@ hr{
 #work{
     /* margin-left: 50%; */
     /* color: aquamarine; */
-    color: #66BFBF;
+    color: #00ffff;
 }
 #work_table{
     color: #ccfff6;
@@ -106,8 +105,8 @@ hr{
 #skills{
     /* margin-left: 50%; */
     /* color: aquamarine; */
-    color: #66BFBF;
-    margin-top: 100px;
+    color: #00ffff;
+    margin-top: 50px;
 }
 #skills_table{
     color: #ccfff6;
@@ -168,7 +167,7 @@ ul li{
     /* color: white; */
     padding-left: 1%;
     padding-right: 10%;
-    color: #11999E;
+    color: #39002d;
 }
 #copyright{
     color: #EAF6F6;
