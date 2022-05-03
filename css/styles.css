@@ -59,14 +59,14 @@ body{
     font-family: 'Merriweather', serif;
 }
 #soft-dev-skill{
-    width: 50%;
-    margin: 60px 2px 0px 150px;
-    /* text-align: left; */
+    width: 60%;
+    margin: 60px 2px 0px 0px;
+    
 }
 #web-dev-skill{
-    width: 50%;
+    width: 60%;
     margin: 70px 100px 100px auto;
-    /* text-align: left; */
+    
 }
 h1{
     font-family: 'Sacramento', serif;
