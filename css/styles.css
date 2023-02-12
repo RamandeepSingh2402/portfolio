@@ -1,8 +1,12 @@
 .top-container{
-    background-color: #014646;
     position: relative;
-    margin: -10px -100px -10px -10px;
-    padding-bottom: 200px;
+    margin: -10px -100px auto -10px;
+    padding: 20px;
+    background-color: #66BFBF;
+    font-family: 'Montserrat', sans-serif;
+    transition: height ease-in-out 3s; 
+    transition: background-color 3s ease;
+    transition: color 2s ease-out;
 }
 .middle-container{
     margin: 100px 0;
@@ -13,16 +17,6 @@
     width: 15%;
     padding-left: 15%;
     padding-right: 15%;
-}
-#first-cloud{
-    display: absolute;
-    margin-left: 75%;
-    padding-top: 5%;
-}
-#second-cloud{
-    display: absolute;
-    margin-right: 75%;
-    padding-top: 5px;
 }
 #software-development{
     /* color: rgb(0,255,255); */
@@ -79,19 +73,27 @@ body{
     padding-top: 50px;
 }
 h1{
-    font-family: 'Sacramento', serif;
-    font-size: 5.625em;
+    font-family: 'Montserrat', sans-serif;
+    /* font-size: 5.625em; */
     margin: 50px auto 0 auto;
-    color: #66BFBF;
+    color: black;
+    color: #EAF6F6;
+    transition: color 3s;
     font-weight: normal;
     line-height: 2;
 }
 #programmer{
     /* color: rgb(185, 247, 188); */
-    color: #66BFBF;
+    background-color: black;
+    color: #ffce2d;
+    transition: background-color ease-in 3s;
+    display: inline;
+    padding: 2px;
+    border-radius: 55;
     font-weight: normal;
     /* text-align: center; */
 }
+
 #coffee{
     color: rgb(255, 255, 255);
     /* text-align: center; */
